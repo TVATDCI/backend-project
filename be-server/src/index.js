@@ -15,6 +15,10 @@ app.get("/", (req, res) => {
   res.send("Hello, world! This is your backend server. It's up and running!");
 });
 
+app.get("/users", (req, res) => {
+  res.send("This is the users route or endpoint in the backend server. In this case, http://localhost:5001/users . It is sent as a string response to the client.");
+});
+
 // Modularized routes
 app.use("/api", testRoute); // Existing route
 app.use("/tasks", tasksRoute); // Tasks route
