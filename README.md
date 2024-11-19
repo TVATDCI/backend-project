@@ -1,4 +1,4 @@
-# Todo App
+# Todo App & user management FE/BE :boom:
 
 This is a full-stack Todo App project with the following structure:
 
