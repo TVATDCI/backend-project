@@ -48,3 +48,18 @@ h2 {
   margin: 0.83em 0;
   color: blue;
 }
+
+.taskUi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskLi {
+  display: flex;
+  color: green;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

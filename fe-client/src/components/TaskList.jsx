@@ -21,10 +21,11 @@ const TaskList = () => {
   return (
     <div>
       <h2>Task List</h2>
-      <ul>
+      <ul className="taskUi">
         {tasks.map((task) => (
-          <li key={task.id}>
-            {task.title} {task.completed ? "(Completed)" : "(Pending)"}
+          <li className="taskLi" key={task.id}>
+            {task.title} {task.category} {task.description}{" "}
+            {task.completed ? "(Completed)" : "(Pending)"}
           </li>
         ))}
       </ul>

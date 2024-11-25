@@ -12,7 +12,7 @@ app.use(express.json()); // Parse incoming JSON requests
 
 // Example route for root (optional)
 app.get("/", (req, res) => {
-  res.send("Hello, world! This is your backend server. It's up and running!");
+  res.send("Hello, world! This is your backend server. It's up and running! Today is a good day to code. Let's learn about rest APIs and how to build them. You can find me in index.js in the src folder.");
 });
 
 app.get("/users", (req, res) => {

@@ -75,3 +75,4 @@ const users = [
 Name: Mario Super, Email: super.mario@example.com
 Name: tvatdci, Email: tv@dci.org
 Name: frontend add, Email: update@user.fe
+Name: king kgarg, Email: k.krag@kinky.fake
