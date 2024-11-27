@@ -13,7 +13,7 @@ This is a simple Express.js backend server that demonstrates basic routing, midd
 - Node.js (version 18.19.1 or later)
 - npm (Node Package Manager)
 
-### Commands to run:
+### Set up Commands:
 - mkdir my-backend-project
 - cd my-backend-project
 - npm init

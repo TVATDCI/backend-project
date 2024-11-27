@@ -13,6 +13,11 @@ app.use(express.json());
 
 const FILE_PATH = "./users.txt";
 
+// route check
+app.get("/", (req, res) => {
+  res.send("Hello, world! This fs.js file is running on the backend server.");
+});
+
 // POST: Save user data to users.txt
 app.post("/users", (req, res) => {
   const user = req.body;

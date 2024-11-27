@@ -25,7 +25,7 @@ const AddUser = () => {
 
   return (
     <div>
-      <h2>Add User</h2>
+      <h3>Please Add User's name & Email. All will store in user.txt</h3>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

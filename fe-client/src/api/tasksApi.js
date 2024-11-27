@@ -1,7 +1,7 @@
 // fe-client/src/api/tasksApi.js
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5001/tasks";
+const BASE_URL = "http://localhost:5001/api/tasks";
 
 export const fetchTasks = async () => {
   const response = await axios.get(BASE_URL);

@@ -1,7 +1,11 @@
 import express from "express";
+import cors from "cors";
 
 const app = express();
 const port = 8000;
+
+// Use CORS
+app.use(cors());
 
 // Middleware setup
 const firstMiddleware = (req, res, next) => {
